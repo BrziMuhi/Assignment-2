@@ -1,0 +1,63 @@
+
+
+body {
+    background: linear-gradient(to right, hsl(75, 88%, 36%), hsl(115, 34%, 56%),  hsla(77, 67%, 39%, 0.449));
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+#form {
+    width: 300px;
+    margin: 20vh auto 0 auto;
+    padding: 20px;
+    background-color: hsl(0, 0%, 96%);
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+#form h1 {
+    color: #0f2027;
+    text-align: center;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: hsl(119, 29%, 58%);
+    border: none;
+    border-radius: 4px;
+}
+
+.input-control {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-control input {
+    border: 2px solid hsl(0, 0%, 94%);
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: hsl(154, 91%, 40%);
+}
+
+.input-control.error input {
+    border-color: hsl(348, 100%, 61%);
+}
+
+.input-control .error {
+    color: hsl(348, 100%, 61%);
+    font-size: 9px;
+    height: 13px;
+}
